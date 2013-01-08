@@ -33,5 +33,19 @@ Eval compute in nth_el  7 fib_stream.
 Eval compute in nth_el  8 fib_stream.
 Eval compute in nth_el  9 fib_stream.
 Eval compute in nth_el 10 fib_stream.
+Eval compute in nth_el 11 fib_stream.
+Eval compute in nth_el 12 fib_stream.
+Eval compute in nth_el 13 fib_stream.
+Eval compute in nth_el 14 fib_stream.
+Eval compute in nth_el 15 fib_stream.
+Eval compute in nth_el 16 fib_stream.
+Eval compute in nth_el 17 fib_stream.
+Eval compute in nth_el 18 fib_stream.
+Eval compute in nth_el 19 fib_stream.
+Eval compute in nth_el 20 fib_stream.
+Eval compute in nth_el 21 fib_stream.
+Eval compute in nth_el 22 fib_stream.
+Eval compute in nth_el 23 fib_stream.
+Eval compute in nth_el 24 fib_stream.
 (* Largest we can go before coqtop segmentation faults. *)
 Eval compute in nth_el 25 fib_stream.
