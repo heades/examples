@@ -1,0 +1,7 @@
+Various examples in different programming languages.
+
+coq : 
+  monads - Formalization of facts about monads
+  fib_stram - Coinductively defined fib. stream
+  infinite_lists - Coinductively defined lists
+  mis_examples - Some novice examples  
