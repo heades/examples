@@ -92,8 +92,7 @@ Require Import FunctionalExtensionality.
 Proof.
   intros a.
   rewrite <- (eta_expansion ret).
-  apply functional_extensionality.
-  intros x.
+  extensionality x.
   apply right_id.
 
   intros a b c p q.
@@ -110,3 +109,4 @@ Defined.
 Definition Maybe_Functor := Monad_Functor Maybe Maybe_Monad.
 Definition maybe_fmap {a b : Type} {F : Functor Maybe} (f:a -> b) x := fmap f x. 
 Check maybe_fmap.
+
