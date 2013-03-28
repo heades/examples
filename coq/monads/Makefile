@@ -1,6 +1,7 @@
 FILES = monad.v \
 	maybe.v \
-	state.v
+	state.v \
+	exception.v
 
 all : monad.vo
 
