@@ -11,11 +11,7 @@ Instance Maybe_Monad : Monad Maybe := {
                | None => None b
               end;
   
-  ret a := Just a;
-
-  bind_ign a b i j := j;
-
-  fail_m a s := None a
+  ret a := Just a
 }.
 
 (* Proofs of the monad laws. *)

@@ -17,17 +17,8 @@ Class Monad (m : Type -> Type) := {
     where "m '>>=' f" := (bind m f);
 
   (* return - The injector of our monad. *)
-  ret : forall {a}, a -> m a;
-
-  (* Extras. *)
+  ret : forall {a}, a -> m a;  
   
-  (* bind_ign - Like bind, but ignores the argument. *)
-  bind_ign : forall {a} {b}, m a -> m b -> m b
-    where "m '>>' f" := (bind m f);
-
-  (* fail_m - Used to break a chain. *)
-  fail_m : forall {a}, string -> m a;
-
   (* Monads Laws. *)
 
   (* Left identity. *)
@@ -75,5 +66,3 @@ Proof.
   rewrite -> left_id.
   reflexivity.
 Defined.
-
-
