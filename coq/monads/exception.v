@@ -22,3 +22,11 @@ Proof.
 
   intros a b c i f g; destruct i; reflexivity.
 Defined.
+
+Parameter a : Type.
+Definition throw := exception.
+Definition catch (g : Exceptional e a) (h : e -> Exceptional e a)  : Exceptional e a :=
+  match g with
+    | exception l => h l
+    | _ => g
+  end.
